@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import color from '../../images/color.png'
+import umair from '../../images/Umair.jpg'
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -257,7 +258,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={color} alt="Umiar Malik" />
+                  <Img src={umair} alt="Umiar Malik" />
                 
                 </Tilt>
               </motion.div>
